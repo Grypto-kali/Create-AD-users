@@ -1,8 +1,8 @@
 # Specify the file path for the CSV file
 $CSVPath = "C:\Skriptit\userlist.csv"
 $GroupName = "Testi"  # Group name
-$OUPath = "OU=Testi,OU=OU - Kaikki,DC=jm,DC=local"  # OU path
-$DomainPath = "jm.local"
+$OUPath = "OU=Testi,OU=OU - Kaikki,DC=yourdomain,DC=local"  # OU path
+$DomainPath = "yourdomain.local"
 
 $Users = Import-Csv $CSVPath  # Read CSV file and create users
 
