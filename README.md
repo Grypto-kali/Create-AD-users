@@ -20,7 +20,7 @@ This PowerShell script automates the creation of users in Active Directory from 
 ## CSV Format
 
 Ensure that your CSV file follows the format below:
- ```powershell
+ ```plaintext
 Username,Firstname,Lastname
 matti.meikalainen,Matti,Meikäläinen
 anna.asiakas,Anna,Asiakas
